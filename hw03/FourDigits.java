@@ -7,10 +7,10 @@
 //import class
 //declare instance (object) of the class
 //construct instance
-//  compile Program #1
-//      javac Root.java
+//  compile Program #3
+//      javac FourDigits.java
 //  run the program
-//      java Root//
+//      java FourDigits//
 
 import java.util.Scanner;
 
