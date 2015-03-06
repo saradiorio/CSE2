@@ -1,6 +1,6 @@
 //Sara D'Iorio
 //lab05
-
+//SpaceExploration
 //find random number between 2000-2010 decade
     //use (int)(Math.random()*...)
 //then output all the events in the timeline
@@ -73,5 +73,5 @@ public class SpaceExploration {
                 
         } //end switch    
     
-    }
-}
+    }//end main method
+}//end class
