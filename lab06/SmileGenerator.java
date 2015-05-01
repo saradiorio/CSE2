@@ -71,6 +71,7 @@ public class SmileGenerator {
         //use while loop
         while (countLoop2 < endLoop2) {
             System.out.print(":) "); //print smiley faces
+            
             countLoop2++; //increment by one so it continues printing that smiley 
         }//end while loop
         System.out.println("\n"); //print line in between different loops/steps
@@ -90,10 +91,11 @@ public class SmileGenerator {
         //create 4th loop that increases the number of smiley faces on each line by 1
         int width=0; //smiley counter
         int height= 1; //height counter
-        for (height=0; height<endLoop2; height++) { //start while loop -- while i is less than random number, run loop 
+        int number3 = (int)(Math.random()*100);
+        for (width=0; width<number3; width++) { //start while loop -- while i is less than random number, run loop 
              if (width==height) { //if statement -- height = width
                 System.out.println(" "); //break line
-                width++; //increase height by 1 (next integer amount)
+                height++; //increase height by 1 (next integer amount)
         } //end if statement
             System.out.print(":) "); //print smiley face
 
